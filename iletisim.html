@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="shortcut icon" href="ResimveLogo/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style4.css">
+    <title>İletişim | technozone</title>
+</head>
+<body>
+    <nav>
+        <h3><a href="index.html">tecnozone</a></h3>
+        <ul class="nav-links">
+            <li><a href="hakkimizda.html">Hakkımızda</a></li>
+            <li><a href="urun.html">Ürünler</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>İletişim</h1>
+    </header>
+    <div class="container">
+        <div class="buttons">
+            <button id="contact-btn">İletişim</button>
+            <button id="register-btn">Kayıt Ol</button>
+        </div>
+        <div id="forms-container">
+            <form id="contact-form" class="form">
+                <h2>Bizimle İletişime Geçin</h2>
+                <div class="form-group">
+                    <label for="name">Ad Soyad</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Gönder</button>
+            </form>
+            <form id="register-form" class="form" style="display: none;">
+                <h2>Kayıt Ol</h2>
+                <div class="form-group">
+                    <label for="username">Kullanıcı Adı</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg-email">Email</label>
+                    <input type="email" id="reg-email" name="reg-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Şifre</label>
+                    <input type="password" id="password" name="password" required>
+                    <div id="message">
+                        <p>Şifre en az aşağıdaki gereksinimleri karşılamalıdır:</p>
+                        <p id="length" class="invalid">En az 8 karakter uzunluğunda</p>
+                        <p id="uppercase" class="invalid">En az bir büyük harf</p>
+                        <p id="lowercase" class="invalid">En az bir küçük harf</p>
+                        <p id="number" class="invalid">En az bir rakam</p>
+                        <p id="special" class="invalid">En az bir özel karakter (!@#$%^&*)</p>
+                    </div>
+                </div>
+                <button type="submit">Kayıt Ol</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <h2>İletişim Bilgilerimiz</h2>
+            <p><strong>Adres:</strong> Technozone Teknoloji Plaza Bursa/Türkiye</p>
+            <p><strong>Telefon:</strong> +90 (224) 695 16 16</p>
+            <p><strong>Email:</strong> info@technozone.com</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/iamemirhancakir/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h2>Technozone</h2>
+                <p><a href="index.html">TechnoZone</a> - Yarının Markası</p>
+            </div>
+            <div class="footer-section">
+                <h2>Site Haritası</h2>
+                <ul>
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="urun.html">Ürünler</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>Ürünler</h2>
+                <ul>
+                    <li>Telefon</li>
+                    <li>Mackbook</li>
+                    <li>Vision Pro</li>
+                    <li>Akıllı Saatler</li>
+                    <li>Kulaklık</li>
+                    <li>Sanal Gerçeklik VR</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>Modeller</h2>
+                <ul>
+                    <li>Samsung S Serisi</li>
+                    <li>Iphone 15 Pro Max</li>
+                    <li>Iphone 14 Pro Max</li>
+                    <li>Apple Watch</li>
+                    <li>Samsung Watch</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>Adres</h2>
+                <p>TechnoZone Teknoloji Plaza <br>Cumhuriyet Mah. İstiklal Cad. No: 123 <br>Bursa, Türkiye</p>
+            </div>
+            <div class="footer-section">
+                <h2>Abone Ol</h2>
+                <form action="#" method="post">
+                    <input type="email" name="email" placeholder="E-posta adresiniz" required>
+                    <a href="iletisim.html"><button type="submit">Abone Ol</button></a>
+                </form>
+            </div>
+            <div class="footer-section">
+                <h2>İletişim</h2>
+                <p>Telefon: +90 (224) 695 16 16 <br>E-posta: info@technozone.com</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2024 TechnoZone. Tüm Hakları Saklıdır.</p>
+        </div>
+    </footer>
+    <script src="script4.js"></script>
+</body>
+</html>

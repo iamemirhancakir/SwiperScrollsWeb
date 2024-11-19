@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="ResimveLogo/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style3.css">
+    <title>Ürünler | tecnozone</title>
+</head>
+<body>
+    <div id="main">
+        <div id="page1">
+            <div id="page1-content">
+                <nav>
+                    <h3><a href="index.html">tecnozone</a></h3>
+                    <ul class="nav-links">
+                        <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                        <li><a href="urun.html">Ürünler</a></li>
+                        <li><a href="iletisim.html">İletişim</a></li>
+                    </ul>
+                </nav>
+                <h1>Ürünler</h1>
+            </div>
+        </div>
+
+        <div id="page2">
+            <div id="page2-top">
+                <h3>Kategori</h3>
+                <div class="kategori-listesi">
+                    <button class="kategori" data-kategori="apple">Apple Ürünleri</button>
+                    <button class="kategori" data-kategori="samsung">Samsung Ürünleri</button>
+                    <!-- Diğer kategori butonları buraya eklenebilir -->
+                </div>
+                
+                <div class="urun-listesi">
+                    <!-- Ürünlerin dinamik olarak ekleneceği alan -->
+                </div>
+            </div>
+            
+        </div>
+        <div id="page3">
+            <div class="urun-listesi">
+                <!-- ÜRÜN 1 -->
+                <div class="urun">
+                    <img src="samsung.jpg" alt="Ürün 1">
+                    <h3 class="urun-baslik">Ürün 1 Başlık</h3>
+                    <button class="compare-btn" data-product-id="1">Karşılaştır</button>
+                </div>
+                <!-- ÜRÜN 1 -->
+                <div class="urun">
+                    <img src="samsung.jpg" alt="Ürün 2">
+                    <h3 class="urun-baslik">Ürün 2 Başlık</h3>
+                    <button class="compare-btn" data-product-id="2">Karşılaştır</button>
+                </div>
+                <!-- ÜRÜN 1 -->
+                <div class="urun">
+                    <img src="samsung.jpg" alt="Ürün 1">
+                    <h3 class="urun-baslik">Ürün 1 Başlık</h3>
+                    <button class="compare-btn" data-product-id="2">Karşılaştır</button>
+                </div>
+                <!-- ÜRÜN 1 -->
+                <div class="urun">
+                    <img src="samsung.jpg" alt="Ürün 1">
+                    <h3 class="urun-baslik">Ürün 1 Başlık</h3>
+                    <button class="compare-btn" data-product-id="2">Karşılaştır</button>
+                </div>
+                <!-- ÜRÜN 1 -->
+                <div class="urun">
+                    <img src="samsung.jpg" alt="Ürün 1">
+                    <h3 class="urun-baslik">Ürün 1 Başlık</h3>
+                    <button class="compare-btn" data-product-id="2">Karşılaştır</button>
+                </div>
+                <!-- ÜRÜN 1 -->
+                <div class="urun">
+                    <img src="samsung.jpg" alt="Ürün 1">
+                    <h3 class="urun-baslik">Ürün 1 Başlık</h3>
+                    <button class="compare-btn" data-product-id="2">Karşılaştır</button>
+                </div>
+                <!-- ÜRÜN 1 -->
+                <div class="urun">
+                    <img src="samsung.jpg" alt="Ürün 1">
+                    <h3 class="urun-baslik">Ürün 1 Başlık</h3>
+                    <button class="compare-btn" data-product-id="2">Karşılaştır</button>
+                </div>
+                <!-- ÜRÜN 1 -->
+                <div class="urun">
+                    <img src="samsung.jpg" alt="Ürün 1">
+                    <h3 class="urun-baslik">Ürün 1 Başlık</h3>
+                    <button class="compare-btn" data-product-id="2">Karşılaştır</button>
+                </div>
+                <!-- ÜRÜN 1 -->
+                <div class="urun">
+                    <img src="samsung.jpg" alt="Ürün 1">
+                    <h3 class="urun-baslik">Ürün 1 Başlık</h3>
+                    <button class="compare-btn" data-product-id="2">Karşılaştır</button>
+                </div>
+                <!-- ÜRÜN 1 -->
+                <div class="urun">
+                    <img src="samsung.jpg" alt="Ürün 1">
+                    <h3 class="urun-baslik">Ürün 1 Başlık</h3>
+                    <button class="compare-btn" data-product-id="2">Karşılaştır</button>
+                </div>
+                <!-- ÜRÜN 1 -->
+                <div class="urun">
+                    <img src="samsung.jpg" alt="Ürün 1">
+                    <h3 class="urun-baslik">Ürün 1 Başlık</h3>
+                    <button class="compare-btn" data-product-id="2">Karşılaştır</button>
+                </div>
+                <!-- ÜRÜN 1 -->
+                <div class="urun">
+                    <img src="samsung.jpg" alt="Ürün 1">
+                    <h3 class="urun-baslik">Ürün 1 Başlık</h3>
+                    <button class="compare-btn" data-product-id="2">Karşılaştır</button>
+                </div>
+            </div>
+            <div id="karsilastir-modal" class="modal">
+                <div class="modal-icerik">
+                    <span class="modal-kapat">&times;</span>
+                    <h2>Karşılaştırma Sonucu</h2>
+                    <div id="karsilastirma-sonuc"></div>
+                </div>
+            </div>
+            
+        </div>
+        <h1>Ürünler</h1>
+    <div class="product-list">
+        <div class="product">
+            <h2>Ürün 1</h2>
+            <p>Özellikler: ...</p>
+            <button class="compare-btn" data-product="Ürün 1">Karşılaştır</button>
+        </div>
+        <div class="product">
+            <h2>Ürün 2</h2>
+            <p>Özellikler: ...</p>
+            <button class="compare-btn" data-product="Ürün 2">Karşılaştır</button>
+        </div>
+        <!-- Diğer ürünler buraya -->
+    </div>
+    <h2>Karşılaştırma Tablosu</h2>
+    <div id="comparison-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Özellik</th>
+                    <th>Ürün 1</th>
+                    <th>Ürün 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h2>Technozone</h2>
+                    <p><a href="index.html">TechnoZone</a> - Yarının Markası</p>
+                </div>
+                <div class="footer-section">
+                    <h2>Site Haritası</h2>
+                    <ul>
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li><a href="urun.html">Ürünler</a></li>
+                        <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                        <li><a href="iletisim.html">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h2>Ürünler</h2>
+                    <ul>
+                        <li>Telefon</li>
+                        <li>Mackbook</li>
+                        <li>Vision Pro</li>
+                        <li>Akıllı Saatler</li>
+                        <li>Kulaklık</li>
+                        <li>Sanal Gerçeklik VR</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h2>Modeller</h2>
+                    <ul>
+                        <li>Samsung S Serisi</li>
+                        <li>Iphone 15 Pro Max</li>
+                        <li>Iphone 14 Pro Max</li>
+                        <li>Apple Watch</li>
+                        <li>Samsung Watch</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h2>Adres</h2>
+                    <p>TechnoZone Teknoloji Plaza <br>Cumhuriyet Mah. İstiklal Cad. No: 123 <br>Bursa, Türkiye</p>
+                </div>
+                <div class="footer-section">
+                    <h2>Abone Ol</h2>
+                    <form action="#" method="post">
+                        <input type="email" name="email" placeholder="E-posta adresiniz" required>
+                        <a href="iletisim.html"><button type="submit">Abone Ol</button></a>
+                    </form>
+                </div>
+                <div class="footer-section">
+                    <h2>İletişim</h2>
+                    <p>Telefon: +90 (224) 695 16 16 <br>E-posta: info@technozone.com</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2024 TechnoZone. Tüm Hakları Saklıdır.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="script3.js"></script>
+</body>
+</html>
