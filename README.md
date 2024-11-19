@@ -22,6 +22,11 @@ A simple and interactive website featuring animations and dynamic scrolling effe
 - ScrollTrigger Documentation
 - Swiper.js Documentation
 
+## 🎯 How to Run the Project
+- Clone the repository:
+- git clone https://github.com/iamemirhancakir/SwiperScrollsWeb.git
+- Open index.html in your browser.
+
 ## 🤝 Contributions
 - Contributions are welcome! If you'd like to improve this project, feel free to submit a pull request.
 
