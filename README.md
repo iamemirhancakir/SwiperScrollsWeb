@@ -24,4 +24,16 @@ A simple and interactive website featuring animations and dynamic scrolling effe
 
 ## 🤝 Contributions
 - Contributions are welcome! If you'd like to improve this project, feel free to submit a pull request.
+
+## ✨ Author
+- Emirhan
+- GitHub:https://github.com/iamemirhancakir
+
+## 📂 Project Structure
+```plaintext
+├── index.html       # Main HTML file
+├── style.css        # CSS file for styling
+├── script.js        # JavaScript for interactivity
+├── assets/          # Folder for images and other assets
+└── README.md        # Project documentation
   
